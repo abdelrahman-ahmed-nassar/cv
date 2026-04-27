@@ -1,0 +1,271 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[utf8]{inputenc}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Abdelrahman Nassar} \\ \vspace{5pt}
+    Full Stack Software Engineer \textbar{} Cloud \& DevOps \textbar{} SaaS Builder \\ \vspace{5pt}
+    Cairo, Egypt \\ \vspace{5pt}
+    \small
+    \href{mailto:abdelrhman.ahmed.nassar@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{abdelrhman.ahmed.nassar@gmail.com}} ~
+    \href{https://www.linkedin.com/in/abdelrahmannassar}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/abdelrahmannassar}}  ~
+    \href{https://abdelrahman-nassar.com}{\raisebox{-0.2\height}\faGlobe\ \underline{abdelrahman-nassar.com}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+\vspace{-3pt}
+\resumeSubHeadingListStart
+  \resumeItem{Full Stack Engineer and Computer Engineering student with hands-on experience building and deploying production SaaS platforms, ERP systems, and scalable web applications using MERN stack, Next.js, and cloud infrastructure.}
+  \resumeItem{AWS Certified (Cloud Practitioner \& Solutions Architect Associate) with practical experience in Docker, CI/CD pipelines, VPS deployment, and Nginx — passionate about cloud-native architecture and currently exploring GenAI integration and LLM-powered product features.}
+  \resumeItem{Delivered cross-functional solutions serving 20,000+ users across education and business sectors, collaborating with clients, stakeholders, and multi-role teams including HR, accountants, teachers, and administrators.}
+  \resumeItem{Seeking an engineering internship to contribute to impactful, innovative tech and accelerate professional growth within a structured mentorship environment.}
+\resumeSubHeadingListEnd
+\vspace{-10pt}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Al-Azhar University}{July 2023 -- July 2028}
+      {Bachelor of Electrical Systems and Computer Engineering (ESCE)}{Cairo, Egypt}
+      \resumeItemListStart
+        \resumeItem{Computer Engineering Department — Currently in 2nd year}
+        \resumeItem{Academic Excellence: 2nd Place in Engineering Preparatory Year (April 2024)}
+        \resumeItem{Top High School Graduate Award — 99\% Score in Al-Azhar Secondary School Certificate}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS (elevated)----------
+\section{Certifications}
+\resumeSubHeadingListStart
+    \resumeSubheading{AWS Certifications}{2022 -- 2023}{Cloud Practitioner \& Solutions Architect Associate}{}
+    \resumeSubheading{Professional Development}{2022 -- 2024}{Full Stack Engineering Coursework}{}
+        \resumeItemListStart
+            \resumeItem{NodeJS — The Complete Guide (MVC, REST APIs, GraphQL, Deno) — 40 hours}
+            \resumeItem{React — The Complete Guide (incl. Next.js, Redux) — 71 hours}
+            \resumeItem{The Complete JavaScript Course 2022: From Zero to Expert — 69 hours}
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Learn Shift}{Sep 2025 -- Present}
+      {Lead Developer \& Software Architect}{Cairo, Egypt}
+      \resumeItemListStart
+        \resumeItem{Architected and delivered custom LMS platforms for multiple education businesses, collaborating closely with clients, teachers, and operations teams to translate business requirements into scalable technical solutions.}
+        \resumeItem{Designed a monorepo architecture with shared packages, Docker-based deployment, and GitHub Actions CI/CD — reducing new client onboarding time to under one day on Digital Ocean VPS.}
+        \resumeItem{Led cross-functional execution across frontend, backend, infrastructure, and client delivery using Agile workflows, ensuring on-time delivery across concurrent projects.}
+        \resumeItem{Mentored and coordinated junior developers, conducting code reviews and enforcing clean code standards.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Shift Up Solutions}{June 2025 -- September 2025}
+      {Full-Stack Developer Intern}{Cairo, Egypt}
+      \resumeItemListStart
+        \resumeItem{Contributed to real-world MERN stack projects with focus on scalable web application architecture in a professional team environment.}
+        \resumeItem{Built optimized React components and RESTful APIs using Express.js and MongoDB, following clean code practices and Git version control workflows.}
+        \resumeItem{Collaborated across feature development, debugging, and UI/UX improvements within an Agile sprint cycle.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Kalbonyan Elmarsos}{March 2022 -- November 2022}
+      {Software Engineering Intern}{Egypt}
+      \resumeItemListStart
+        \resumeItem{Completed an intensive full-stack development training program covering modern web technologies — built 8+ real-world projects including Omnifood, Bankist, Mapty, and Forkify.}
+        \resumeItem{Won 1st Place in Kalbonyan Elmarsos Programming Competition (March 2023).}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Featured Projects}
+\vspace{-5pt}
+\resumeSubHeadingListStart
+
+%================ LMS PLATFORM ================%
+\resumeProjectHeading
+  {\href{https://heba-elsayed.com}{\underline{\textbf{LMS Platform — Learn Shift Core Product}}} $|$ \emph{Next.js, NestJS, MongoDB, Redis, Docker, GitHub Actions}}{Jan 2025 -- Present}
+  \resumeItemListStart
+    \resumeItem{Production LMS ecosystem serving 20,000+ students across multiple live deployments — the core product of the Learn Shift platform (\href{https://learn-shift.org}{learn-shift.org}).}
+    \resumeItem{Built three interconnected apps: a Next.js student portal (Fawry payments, video protection, WhatsApp alerts), a React.js admin dashboard (drag-and-drop course builder, real-time analytics), and a 40+ module NestJS REST API (JWT/RBAC, Redis caching, BullMQ queues, Grafana monitoring).}
+    \resumeItem{Containerized with Docker and deployed via CI/CD on Digital Ocean VPS with Nginx reverse proxy — engineering decisions rooted in cloud-native scalability and operational reliability.}
+  \resumeItemListEnd
+  \vspace{-13pt}
+
+%================ MODAWIM ================%
+\resumeProjectHeading
+  {\href{https://modawim.com}{\underline{\textbf{Modawim — Productivity SaaS Platform}}} $|$ \emph{Next.js, TypeScript, PostgreSQL, Drizzle ORM, Redis}}{2025 -- 2026}
+  \resumeItemListStart
+    \resumeItem{Designed, built, and launched a full-stack SaaS productivity platform serving thousands of users — offering integrated tools (Tasks, Goals, Habits, Journaling, Notes, Calendar) backed by productivity psychology research.}
+    \resumeItem{Engineered a reusable SaaS starter template covering OAuth, 4-role RBAC, Firebase push notifications, payment gateway with coupon support, support ticketing, blog, newsletter, Playwright E2E tests, PWA, and CI/CD — now forkable as a foundation for future products.}
+    \resumeItem{Handled the full product lifecycle end-to-end: architecture, backend APIs, frontend UI, infrastructure, and user-facing delivery — demonstrating ownership across all engineering layers.}
+  \resumeItemListEnd
+  \vspace{-13pt}
+
+%================ AL-MOSTAFA ERP ================%
+\resumeProjectHeading
+  {\href{https://almostafa.academy}{\underline{\textbf{Al-Mostafa Kindergarten ERP System}}} $|$ \emph{Next.js, NestJS, MongoDB, Redis, Docker}}{2026}
+  \resumeItemListStart
+    \resumeItem{Built an enterprise ERP system for a nursery of 100+ employees and 1,000+ children — covering 14 modules: HR and payroll, student academic evaluations, parent portal, transportation routing, admissions, billing with installment plans, accounting reports, and multi-channel notifications.}
+    \resumeItem{Designed for 8 distinct user roles (admin, HR, teachers, accountants, receptionists, transport supervisors, parents) — collaborated directly with department heads to gather requirements and iterate on workflows, with automated PDF generation across all departments.}
+  \resumeItemListEnd
+  \vspace{-13pt}
+
+%================ AL-AZHAR SHOWCASE ================%
+\resumeProjectHeading
+  {\href{https://al-azhar-electronics.netlify.app}{\underline{\textbf{Al-Azhar Engineering Showcase Platform}}} $|$ \emph{Next.js, TypeScript, Tailwind CSS, Supabase}}{Apr -- May 2025}
+  \resumeItemListStart
+    \resumeItem{Built the official project archive platform for Al-Azhar's Computer \& Systems Engineering department — hosting 59+ projects and 75+ teams, with search, auto-generated student portfolios, and team profile pages.}
+    \resumeItem{Formally adopted by university leadership (President, Dean, Department Head) as the permanent submission system — presented at the AZ-SENCS exhibition and led directly to a professional internship offer from a recruiter on-site.}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+\resumeSubHeadingListStart
+\resumeItem{\textbf{Frontend:} React.js, Next.js, TypeScript, Tailwind CSS, Redux, Zustand}
+\resumeItem{\textbf{Backend:} Node.js, Express.js, NestJS, REST APIs, JWT, RBAC}
+\resumeItem{\textbf{Databases:} MongoDB, PostgreSQL, Redis, Supabase, Drizzle ORM}
+\resumeItem{\textbf{Cloud \& DevOps:} AWS (Certified), Docker, GitHub Actions CI/CD, VPS, Nginx, Linux}
+\resumeItem{\textbf{Exploring:} GenAI integration, LLM APIs, prompt engineering}
+\resumeItem{\textbf{Tools:} Git, Postman, Swagger, Cloudinary, Figma, Sentry, Grafana}
+\resumeSubHeadingListEnd
+
+%-----------AWARDS-----------
+\section{Awards \& Recognition}
+\resumeSubHeadingListStart
+    \resumeSubheading{AZ-SENCS Engineering Exhibition}{May 2025}{Participant — Presidential Recognition}{Al-Azhar University}
+        \resumeItemListStart
+            \resumeItem{Presented project to University President Prof. Dr. Salama Dawood and Faculty Dean}
+            \resumeItem{Project officially adopted by university and hosted on institutional servers}
+        \resumeItemListEnd
+
+    \resumeSubheading{Kalbonyan Elmarsos Programming Competition}{March 2023}{1st Place}{}
+\resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+\vspace{-3pt}
+\resumeItemListStart
+  \resumeItem{Built systems used by 20,000+ users across production deployments}
+  \resumeItem{70+ GitHub repositories — 100+ stars}
+  \resumeItem{7,000+ LinkedIn followers}
+  \resumeItem{200+ Codeforces problems solved}
+\resumeItemListEnd
+
+%-----------LANGUAGES-----------
+\section{Languages}
+\vspace{-3pt}
+\resumeItemListStart
+  \resumeItem{Arabic: Native}
+  \resumeItem{English: Professional Working Proficiency (B2/C1)}
+\resumeItemListEnd
+
+\end{document}
